@@ -1,0 +1,136 @@
+.MainContent{
+width: 100%;
+display: inline-flex;
+justify-content: center;
+margin-top: 10%;
+z-index: 1;
+}
+
+.InteractionContent{
+  width: 15%;
+  height: 50%;
+  display: table-column;
+}
+
+.ServiceContent{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205,205,205);
+}
+.AccountLogin{
+  margin-top: 2.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205,205,205);
+}
+
+#logo {
+  width: 60%;
+  height: 12%;
+  margin-left: 20%;
+}
+
+#SignUpText{
+  font-family: Segoe UI;
+  font-weight: 700;
+  color: rgb(205,205,205);
+  width: 70%;
+  font-size: 12pt;
+  margin-left: 15%;
+  margin-top: 0.1%;
+  text-align: center;
+}
+
+button{
+  font-family: Segoe UI;
+  margin-top: 3%;
+  width: 70%;
+  font-weight: 700;
+  margin-left: 15%;
+  background-color: rgb(56, 151, 240);
+  text-align: center;
+  font-size: 10pt;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+
+}
+
+.Seperator{
+  display: flex;
+  justify-content: center;
+}
+
+#Line1{
+  width: 28%;
+  height: 1%;
+  margin-top: 4%;
+}
+#OR{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#Line2{
+  width: 28%;
+  height: 1%;
+  margin-top: 4%;
+}
+ input{
+   font-family: Segoe UI;
+   font-weight: 300;
+   color: rgb(205,205,205);
+   display: table-column;
+   margin-top: 7pt;
+   justify-content: center;
+   margin-left: 15%;
+   width: 69%;
+   height: 20pt;
+ }
+
+ p{
+   font-family: Segoe UI;
+   color: rgb(205,205,205);
+   font-weight: 300;
+   text-align: center;
+ }
+
+a{
+  font-family: Segoe UI;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+#BottomLinks{
+  padding: 5px;
+}
+
+.DownloadServices{
+  text-align: center;
+}
+.FooterContent{
+  margin-top: 5%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+  @media screen and (max-width: 992px)
+  <!–– Its a such a large width due to the resolution
+  this was developed on––>
+  {
+    #Phone{
+      display: none;
+    }
+    .InteractionContent{
+      width: auto !important;
+      height: auto !important;
+    }
+    .FooterContent{
+      display: block !important;
+      text-align: center !important;
+    }
+  }
